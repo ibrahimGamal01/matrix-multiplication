@@ -33,4 +33,3 @@ for i in range(r2):
     for j in range(c2):
         print(mat2[i][j], end=' ')
     print()  # add a newline after each row
-

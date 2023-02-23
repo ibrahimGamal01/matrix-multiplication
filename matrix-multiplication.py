@@ -11,7 +11,6 @@ def print_matrix(matrix):
             print(val, end=" ")
         print()
 
-
 def multiply_matrices(matrix1, matrix2):
     result_matrix = [[0 for j in range(len(matrix2[0]))]
                      for i in range((len(matrix1)))]
@@ -21,7 +20,6 @@ def multiply_matrices(matrix1, matrix2):
             for k in range(len(matrix2)):
                 result_matrix[row][col] += matrix1[row][k] * matrix2[k][col]
     return result_matrix
-
 
 if c1 == r2:
     # initialize the matrix of zero values
@@ -60,8 +58,8 @@ if c1 == r2:
     #         for k in range(r2):
     #             ansMat[i][j] += mat1[i][k] * mat2[k][j]
     '''
-    ansMat = multiply_matrices(mat1, mat2)
 
+    ansMat = multiply_matrices(mat1, mat2)
     print_matrix(ansMat)
 
 else:  # c1 should = r2

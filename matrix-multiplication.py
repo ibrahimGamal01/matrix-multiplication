@@ -1,4 +1,3 @@
-import numpy as np  # I want to check my solution with numpy
 import random
 r1 = int(input("Enter matrix 1 number of rows : "))
 c1 = int(input("Enter matrix 1 number of cols : "))

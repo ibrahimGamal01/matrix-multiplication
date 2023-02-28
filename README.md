@@ -15,9 +15,8 @@ Usage
 4. Follow the instructions on the screen to enter the number of rows and columns for the two matrices you want to multiply.
 5. The program will generate random values for the two matrices, perform the multiplication and display the result.
 
-## License
-
-This code is licensed under the MIT License.
+## Complexity
+###O(n^3)
 
 # C++ Code
 
@@ -34,3 +33,7 @@ This C++ code performs matrix multiplication between two matrices entered by the
 9. The value of the specified element is found using a loop and printed to the console.
 
 The code uses dynamic memory allocation to create 2D arrays of integers, which can cause memory leaks if not properly managed. It also assumes that the user enters valid dimensions for the matrices and valid indices for the element to find, without any error checking beyond bounds checking. Overall, the code provides a basic implementation of matrix multiplication and element finding, but may need additional error checking and memory management to be considered robust.
+
+## License
+
+This code is licensed under the MIT License.

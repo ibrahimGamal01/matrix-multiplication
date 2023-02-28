@@ -16,7 +16,7 @@ Usage
 5. The program will generate random values for the two matrices, perform the multiplication and display the result.
 
 ## Complexity
-###O(n^3)
+### O(n^3)
 
 # C++ Code
 
